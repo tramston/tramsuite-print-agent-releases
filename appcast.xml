@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Tramsuite Print Agent Updates</title>
+    <link>https://github.com/your-org/TramsuitePrintAgent-AppCast</link>
+    <description>AppCast for auto-updates</description>
+    <language>en</language>
+
+    <!-- RELEASE #1 -->
+    <item>
+      <title>Version 1.0.0</title>
+      <sparkle:releaseNotesLink>
+        https://raw.githubusercontent.com/your-org/TramsuitePrintAgent-AppCast/main/notes/1.0.0.html
+      </sparkle:releaseNotesLink>
+      <pubDate>Wed, 02 Jul 2025 12:00:00 GMT</pubDate>
+      <enclosure
+        url="https://github.com/your-org/TramsuitePrintAgent-AppCast/raw/main/releases/TramsuitePrintAgent-1.0.0.zip"
+        sparkle:version="1.0.0"
+        length="12345678"
+        type="application/zip" />
+    </item>
+
+    <!-- RELEASE #2 -->
+    <item>
+      <title>Version 1.1.0</title>
+      <sparkle:releaseNotesLink>
+        https://raw.githubusercontent.com/your-org/TramsuitePrintAgent-AppCast/main/notes/1.1.0.html
+      </sparkle:releaseNotesLink>
+      <pubDate>Mon, 14 Jul 2025 15:30:00 GMT</pubDate>
+      <enclosure
+        url="https://github.com/your-org/TramsuitePrintAgent-AppCast/raw/main/releases/TramsuitePrintAgent-1.1.0.zip"
+        sparkle:version="1.1.0"
+        length="23456789"
+        type="application/zip" />
+    </item>
+
+  </channel>
+</rss>
